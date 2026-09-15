@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #faf8f3;
+  color: #14181f;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background-color: #2954a3;
+  color: #faf8f3;
+}
+
+/* Dark theme overrides, toggled via .dark-theme on <html> */
+.dark-theme body {
+  background-color: #14181f;
+  color: #f1eee4;
+}
+.dark-theme .bg-paper {
+  background-color: #14181f !important;
+}
+.dark-theme .bg-card {
+  background-color: #1c212b !important;
+}
+.dark-theme .border-line {
+  border-color: #2a303c !important;
+}
+.dark-theme .text-ink {
+  color: #f1eee4 !important;
+}
+.dark-theme .text-muted {
+  color: #9aa3b2 !important;
+}
+.dark-theme .bg-accent-light {
+  background-color: #1e3350 !important;
+}
+
+/* Navbar stays light with black text even in dark mode, per request */
+.dark-theme .site-navbar {
+  background-color: rgba(250, 248, 243, 0.9) !important;
+  border-color: #e4e0d6 !important;
+}
+.dark-theme .site-navbar .text-ink,
+.dark-theme .site-navbar .text-muted,
+.dark-theme .site-navbar a {
+  color: #14181f !important;
+}
+.dark-theme .site-navbar a:hover {
+  color: #2954a3 !important;
+}
+
+/* Project tags and links stay white in dark mode */
+.dark-theme .project-tag {
+  color: #ffffff !important;
+  background-color: #2a303c !important;
+}
+.dark-theme .project-link {
+  color: #ffffff !important;
+}
+
+/* Contact email stays white in dark mode */
+.dark-theme .contact-email {
+  color: #ffffff !important;
+}
+
+/* Visible keyboard focus ring, consistent across the site */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #2954a3;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
