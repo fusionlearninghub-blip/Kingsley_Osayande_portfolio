@@ -7,8 +7,8 @@ const projects: Project[] = [
       "A job application management dashboard that lets users add, edit, delete, search, filter, and track job applications and their statuses. Data persists in the browser.",
     role: "Designed the UI, built the dashboard, implemented CRUD operations, filtering, sorting, dark mode, and LocalStorage functionality.",
     stack: ["HTML5", "CSS3", "JavaScript", "DOM", "LocalStorage"],
-    demoUrl: "https://job-application-tracker-3us86k7cx.vercel.app/",
-    repoUrl: "https://github.com/fusionlearninghub-blip/Job-Application-Tracker",
+    demoUrl: "https://careertrack-react.vercel.app/",
+    repoUrl: "https://github.com/fusionlearninghub-blip/careertrack-react",
   },
   {
     name: "ShopFlow",
@@ -24,8 +24,8 @@ const projects: Project[] = [
       "Async/Await",
       "LocalStorage",
     ],
-    demoUrl: "https://e-commerce-nu-one-26.vercel.app/",
-    repoUrl: "https://github.com/fusionlearninghub-blip/E-Commerce",
+    demoUrl: "https://shopflow-react.vercel.app/",
+    repoUrl: "https://github.com/fusionlearninghub-blip/shopflow-react",
   },
   {
     name: "InsightBoard",
@@ -33,8 +33,8 @@ const projects: Project[] = [
       "A business analytics dashboard showing revenue, orders, customers, conversion rates, sales categories, products, and customer information through interactive charts and tables.",
     role: "Developed the responsive dashboard, implemented data calculations, charts, search/filtering, theme switching, notifications, and LocalStorage state management.",
     stack: ["HTML5", "CSS3", "JavaScript", "DOM", "Chart.js", "LocalStorage"],
-    demoUrl: "https://saa-s-business-analytics-dashboard-b4tll3hd1.vercel.app/",
-    repoUrl: "https://github.com/fusionlearninghub-blip/SaaS-business-analytics-dashboard",
+    demoUrl: "https://insightboard-react.vercel.app/",
+    repoUrl: "https://github.com/fusionlearninghub-blip/insightboard-react",
   },
   {
     name: "FusionLearn",
@@ -50,8 +50,8 @@ const projects: Project[] = [
       "LocalStorage",
       "Fetch/API concepts",
     ],
-    demoUrl: "https://online-learning-platform-ten-wine.vercel.app/",
-    repoUrl: "https://github.com/fusionlearninghub-blip/Online-Learning-Platform",
+    demoUrl: "https://fusionlearn-react.vercel.app/",
+    repoUrl: "https://github.com/fusionlearninghub-blip/fusionlearn-react",
   },
 ];
 
